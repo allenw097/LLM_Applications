@@ -1,5 +1,5 @@
-# LLM Chain Prompting and Retrieval-Augmented Generation QA
-## Here are two implementations of OpenAI's ChatGPT for personal/business use cases.
+# LLM Chain Prompting and Retrieval-Augmented Generation QA with GPT-3.5
+## Here are two implementations of OpenAI's GPT-3.5 for personal/business use cases.
 ## 1. Utilizing LangChain to answer questions regarding the iPhone's new software update iOS 17. 
 ### The process is called Retrieval-Augmented Generation or RAG. You can't directly feed the input text into a prompt as it takes up too many tokens. Rather through utilization of Langchain and OpenAI embeddings, we can embed the document into vectors. Before that, we need to split the document into chunks and then through semantic similarity we retrieve the chunk with the similar embeddings.
 #### **Pipeline Process**
